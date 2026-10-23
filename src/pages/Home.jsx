@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
 import prato1 from '../assets/prato1.jpeg';
+import prato4 from '../assets/prato4.jpeg';
+import prato3 from '../assets/prato3.jpeg';
 
 const Home = () => {
   const destaques = [
@@ -11,21 +13,21 @@ const Home = () => {
       nome: 'Sushi Salmão',
       descricao: 'Salmão fresco com arroz japonês.',
       preco: 'R$ 32,00',
-      imagem: './assets/prato1.jpeg',
+      imagem: prato1,
     },
     {
       id: 2,
       nome: 'Temaki Salmão',
       descricao: 'Salmão, arroz e alga crocante.',
       preco: 'R$ 26,00',
-      imagem: './assets/prato2.jpeg',
+      imagem: prato4,
     },
     {
       id: 3,
       nome: 'Sashimi',
       descricao: 'Fatias selecionadas de peixe fresco.',
       preco: 'R$ 45,00',
-      imagem: './assets/prato3.jpeg',
+      imagem: prato3,
     },
   ];
 

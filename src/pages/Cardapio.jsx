@@ -7,6 +7,9 @@ import Card from '../components/Card';
 import prato1 from '../assets/prato1.jpeg';
 import prato2 from '../assets/prato2.jpeg';
 import prato3 from '../assets/prato3.jpeg';
+import prato4 from '../assets/prato4.jpeg';
+import prato5 from '../assets/prato5.jpeg';
+import prato6 from '../assets/prato6.jpeg';
 
 const pratos = [
   {
@@ -23,7 +26,7 @@ const pratos = [
     titulo: 'Temaki de Salmão',
     descricao: 'Salmão, arroz e alga crocante.',
     preco: 'R$ 26,00',
-    imagem: prato1,
+    imagem: prato4,
   },
   {
     id: 3,
@@ -39,7 +42,7 @@ const pratos = [
     titulo: 'Combo Especial',
     descricao: 'Uma seleção variada de peças japonesas.',
     preco: 'R$ 60,00',
-    imagem: prato1,
+    imagem: prato5,
   },
   {
     id: 5,
@@ -47,7 +50,7 @@ const pratos = [
     titulo: 'Hot Roll',
     descricao: 'Peças empanadas com recheio saboroso.',
     preco: 'R$ 36,00',
-    imagem: prato2,
+    imagem: prato6,
   },
   {
     id: 6,
@@ -55,7 +58,7 @@ const pratos = [
     titulo: 'Sushi Especial',
     descricao: 'Uma combinação de sabores tradicionais.',
     preco: 'R$ 39,00',
-    imagem: prato3,
+    imagem: prato2,
   },
 ];
 
