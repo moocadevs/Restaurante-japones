@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
+import prato1 from '../assets/prato1.jpeg';
+import prato2 from '../assets/prato2.jpeg';
+import prato3 from '../assets/prato3.jpeg';
 
 const Home = () => {
   const destaques = [
@@ -10,21 +13,21 @@ const Home = () => {
       nome: 'Sushi Salmão',
       descricao: 'Salmão fresco com arroz japonês.',
       preco: 'R$ 32,00',
-      imagem: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80',
+      imagem: './assets/prato1.jpeg',
     },
     {
       id: 2,
       nome: 'Temaki Salmão',
       descricao: 'Salmão, arroz e alga crocante.',
       preco: 'R$ 26,00',
-      imagem: 'https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&q=80',
+      imagem: './assets/prato2.jpeg',
     },
     {
       id: 3,
       nome: 'Sashimi',
       descricao: 'Fatias selecionadas de peixe fresco.',
       preco: 'R$ 45,00',
-      imagem: 'https://images.unsplash.com/photo-1534482421-64566f976cfa?auto=format&fit=crop&w=600&q=80',
+      imagem: './assets/prato3.jpeg',
     },
   ];
 
@@ -33,13 +36,14 @@ const Home = () => {
       <Navbar />
 
       <section className="relative flex min-h-[75vh] items-center justify-center overflow-hidden px-6 text-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=1800&q=85')",
-          }}
-        />
+        
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${prato1})`,
+      }}
+      />
+
 
         <div className="absolute inset-0 bg-black/70" />
 
