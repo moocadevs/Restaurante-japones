@@ -1,4 +1,5 @@
 const Card = ({ imagem, titulo, descricao, preco }) => {
+    
 return (
 <article className="group overflow-hidden rounded-2xl border border-white/10 bg-gray-900 transition duration-300 hover:-translate-y-1 hover:border-red-500/50 hover:shadow-xl hover:shadow-red-950/20">
 <div className="h-56 overflow-hidden bg-gray-800">
