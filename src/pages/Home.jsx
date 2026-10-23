@@ -3,8 +3,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
 import prato1 from '../assets/prato1.jpeg';
-import prato2 from '../assets/prato2.jpeg';
-import prato3 from '../assets/prato3.jpeg';
 
 const Home = () => {
   const destaques = [
