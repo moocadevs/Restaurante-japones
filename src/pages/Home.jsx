@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import Card from '../components/Card';
 import prato1 from '../assets/prato1.jpeg';
 
-
 const Home = () => {
   const destaques = [
     {
