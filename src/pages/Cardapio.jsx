@@ -4,6 +4,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
 
+import prato1 from '../assets/prato1.jpeg';
+import prato2 from '../assets/prato2.jpeg';
+import prato3 from '../assets/prato3.jpeg';
+
 const pratos = [
   {
     id: 1,
@@ -11,7 +15,7 @@ const pratos = [
     titulo: 'Sushi de Salmão',
     descricao: 'Arroz japonês e salmão fresco.',
     preco: 'R$ 32,00',
-    imagem: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80',
+    imagem: prato1,
   },
   {
     id: 2,
@@ -19,7 +23,7 @@ const pratos = [
     titulo: 'Temaki de Salmão',
     descricao: 'Salmão, arroz e alga crocante.',
     preco: 'R$ 26,00',
-    imagem: 'https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&q=80',
+    imagem: prato1,
   },
   {
     id: 3,
@@ -27,7 +31,7 @@ const pratos = [
     titulo: 'Sashimi Especial',
     descricao: 'Fatias de peixe fresco.',
     preco: 'R$ 45,00',
-    imagem: 'https://images.unsplash.com/photo-1534482421-64566f976cfa?auto=format&fit=crop&w=600&q=80',
+    imagem: prato3,
   },
   {
     id: 4,
@@ -35,7 +39,7 @@ const pratos = [
     titulo: 'Combo Especial',
     descricao: 'Uma seleção variada de peças japonesas.',
     preco: 'R$ 60,00',
-    imagem: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80',
+    imagem: prato1,
   },
   {
     id: 5,
@@ -43,7 +47,7 @@ const pratos = [
     titulo: 'Hot Roll',
     descricao: 'Peças empanadas com recheio saboroso.',
     preco: 'R$ 36,00',
-    imagem: 'https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&q=80',
+    imagem: prato2,
   },
   {
     id: 6,
@@ -51,7 +55,7 @@ const pratos = [
     titulo: 'Sushi Especial',
     descricao: 'Uma combinação de sabores tradicionais.',
     preco: 'R$ 39,00',
-    imagem: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80',
+    imagem: prato3,
   },
 ];
 
